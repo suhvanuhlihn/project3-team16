@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MSU Parking Tips</string>
+    <string name="search">Search for Parking...</string>
+    <string name="info">Info</string>
+</resources>

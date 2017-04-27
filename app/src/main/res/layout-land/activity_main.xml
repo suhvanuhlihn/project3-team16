@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+
+<ImageView
+    app:srcCompat="@drawable/student_parking_sign"
+    android:id="@+id/imageStudentParking"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="20dp"
+    android:adjustViewBounds="true" />
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/emptyFrameOne">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/buttonSearch"
+            android:text="@string/search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="24sp"
+            android:onClick="onSearchForParking"
+            android:layout_gravity="center"
+            android:longClickable="false"
+            android:layout_margin="8dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/buttonInfo"
+        android:text="@string/info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:onClick="onInfo"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/emptyFrameTwo">
+
+    </FrameLayout>
+</LinearLayout>
+
+</LinearLayout>
