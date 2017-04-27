@@ -15,7 +15,8 @@ tools:context=".MainActivity">
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:padding="20dp"
-    android:adjustViewBounds="true" />
+    android:adjustViewBounds="true"
+    android:contentDescription="@string/parkingimage" />
 
 <LinearLayout
     android:orientation="vertical"
