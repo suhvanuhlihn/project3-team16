@@ -58,6 +58,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onSearch(View view) {
+        // get the closest result
+
         Intent intent = new Intent(this, ResultActivity.class);
         startActivity(intent);
     }
