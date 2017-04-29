@@ -3,4 +3,8 @@
     <string name="search">Search for Parking...</string>
     <string name="info">Info</string>
     <string name="parkingimage">parkingImage</string>
+    <string name="result">Nearest Parking</string>
+    <string name="dummy">dummy</string>
+    <string name="nextClosest">Nearby:</string>
+    <string name="otherParking">Other Lots:</string>
 </resources>
