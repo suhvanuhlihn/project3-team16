@@ -64,9 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onInfo(View view) {
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(this);
-        LayoutInflater inflater = this.getLayoutInflater();
-        final View dialogHowTo = inflater.inflate(R.layout.dialogue_info, null);
-        dialogBuilder.setView(dialogHowTo);
+        dialogBuilder.setMessage(R.string.infoText);
         dialogBuilder.setTitle("Welcome to MSU Parking Tips!");
         dialogBuilder
                 .setCancelable(false)
@@ -75,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
                         dialog.cancel();
                     }
                 });
+
         AlertDialog alertDialog = dialogBuilder.create();
         alertDialog.show();
         alertDialog.getButton(alertDialog.BUTTON_NEGATIVE).setTextColor(black);

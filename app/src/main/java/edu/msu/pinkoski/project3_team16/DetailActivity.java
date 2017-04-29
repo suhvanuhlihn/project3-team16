@@ -23,5 +23,9 @@ public class DetailActivity extends AppCompatActivity{
         intent.setClassName("com.google.android.apps.maps","com.google.android.maps.MapsActivity");
         startActivity(intent);
     }
+
+    private LotImageView getLotImageView() {
+        return (LotImageView) this.findViewById(R.id.lotPictureView);
+    }
 }
 
