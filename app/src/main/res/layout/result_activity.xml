@@ -15,19 +15,21 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:clickable="true"
+        android:clickable="false"
         android:onClick="onDetail"
         android:text="@string/result"
         android:textSize="40sp" />
 
     <TextView
         android:id="@+id/textPlace"
-        android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_below="@+id/textResult"
-        android:text="@string/dummy"/>
+        android:layout_centerInParent="true"
+        android:clickable="true"
+        android:onClick="onOption1"
+        android:text="@string/dummy"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
         android:id="@+id/textDistance"
@@ -62,12 +64,14 @@
         android:id="@+id/textSecondLot"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_marginStart="10sp"
-        android:layout_toEndOf="@+id/textSecondLotLabel"
         android:layout_alignBaseline="@+id/textSecondLotLabel"
         android:layout_alignBottom="@+id/textSecondLotLabel"
-        android:text="@string/dummy"/>
+        android:layout_marginStart="10sp"
+        android:layout_toEndOf="@+id/textSecondLotLabel"
+        android:clickable="true"
+        android:onClick="onOption2"
+        android:text="@string/dummy"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
     <TextView
         android:id="@+id/textThirdLotLabel"
         android:layout_width="100dp"
@@ -82,12 +86,14 @@
         android:id="@+id/textThirdLot"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_marginStart="10sp"
-        android:layout_toEndOf="@+id/textThirdLotLabel"
         android:layout_alignBaseline="@+id/textThirdLotLabel"
         android:layout_alignBottom="@+id/textThirdLotLabel"
-        android:text="@string/dummy"/>
+        android:layout_marginStart="10sp"
+        android:layout_toEndOf="@+id/textThirdLotLabel"
+        android:clickable="true"
+        android:onClick="onOption3"
+        android:text="@string/dummy"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
     <TextView
         android:id="@+id/textFourthLotLabel"
         android:layout_width="100dp"
@@ -102,11 +108,13 @@
         android:id="@+id/textFourthLot"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_marginStart="10sp"
-        android:layout_toEndOf="@+id/textFourthLotLabel"
         android:layout_alignBaseline="@+id/textFourthLotLabel"
         android:layout_alignBottom="@+id/textFourthLotLabel"
-        android:text="@string/dummy"/>
+        android:layout_marginStart="10sp"
+        android:layout_toEndOf="@+id/textFourthLotLabel"
+        android:clickable="true"
+        android:onClick="onOption4"
+        android:text="@string/dummy"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </RelativeLayout>

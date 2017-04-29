@@ -17,14 +17,12 @@ public class ParkingLot {
     private transient Bitmap mapPic;
     private transient Bitmap inPersonPic;
     private String freeTime = null;
-    private double fee = 0;
+    private String fee = "0";
     private String tips = null;
 
     // constructor
-    public ParkingLot(Context context, int id, int mapPicID, int inPersonID) {
+    public ParkingLot(int id) {
         lotId = id;
-        mapPic = BitmapFactory.decodeResource(context.getResources(), mapPicID);
-        inPersonPic = BitmapFactory.decodeResource(context.getResources(), inPersonID);
     }
 
     public void SetGPS(double lati, double longi) {
@@ -33,7 +31,7 @@ public class ParkingLot {
     }
 
     public void SetName(String n) { name = n;}
-    public void SetConfig(String free, double fee, String tips) {
+    public void SetConfig(String free, String fee, String tips) {
         freeTime = free;
         this.fee = fee;
         this.tips = tips;
