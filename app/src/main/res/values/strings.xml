@@ -17,4 +17,9 @@
     <string name="infoHeading">Welcome to MSU Parking Tips!</string>
     <string name="title_activity_maps">Map</string>
     <string name="map_it">MAP IT</string>
+    <string name="firstOption">First Option</string>
+    <string name="distance">Distance in meters</string>
+    <string name="secondOption"> Second Option</string>
+    <string name="thirdOption"> Third Option</string>
+    <string name="fourthOption"> Fourth Option</string>
 </resources>

@@ -11,6 +11,7 @@
 
     <TextView
         android:id="@+id/textResult"
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -18,25 +19,31 @@
         android:clickable="true"
         android:onClick="onDetail"
         android:text="@string/result"
+        android:textColor="@color/black"
         android:textSize="40sp" />
 
     <TextView
         android:id="@+id/textPlace"
+        android:textAlignment="center"
         android:layout_centerInParent="true"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:textSize="30sp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_below="@+id/textResult"
-        android:text="@string/dummy"/>
+        android:layout_margin="8sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:text="@string/firstOption"/>
 
     <TextView
         android:id="@+id/textDistance"
         android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_below="@+id/textPlace"
-        android:text="@string/dummy"/>
+        android:text="@string/distance"/>
 
     <TextView
         android:id="@+id/textOtherCloseParking"
@@ -44,35 +51,49 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textDistance"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textColor="black"
         android:text="@string/otherParking"/>
 
     <TextView
         android:id="@+id/textSecondLotLabel"
+        android:layout_marginTop="8sp"
+        android:layout_marginStart="8sp"
+        android:layout_marginBottom="8sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_alignParentStart="true"
         android:gravity="end"
         android:layout_below="@+id/textOtherCloseParking"
+
         android:text="@string/second"/>
 
     <TextView
         android:id="@+id/textSecondLot"
+        android:layout_marginEnd="8sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_marginStart="10sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_toEndOf="@+id/textSecondLotLabel"
         android:layout_alignBaseline="@+id/textSecondLotLabel"
         android:layout_alignBottom="@+id/textSecondLotLabel"
-        android:text="@string/dummy"/>
+        android:text="@string/secondOption"/>
     <TextView
         android:id="@+id/textThirdLotLabel"
+        android:layout_marginStart="8sp"
+        android:layout_marginBottom="8sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_alignParentStart="true"
         android:gravity="end"
         android:layout_below="@+id/textSecondLotLabel"
@@ -80,19 +101,26 @@
 
     <TextView
         android:id="@+id/textThirdLot"
+        android:layout_marginEnd="8sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_marginStart="10sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_toEndOf="@+id/textThirdLotLabel"
         android:layout_alignBaseline="@+id/textThirdLotLabel"
         android:layout_alignBottom="@+id/textThirdLotLabel"
-        android:text="@string/dummy"/>
+        android:text="@string/thirdOption"/>
     <TextView
         android:id="@+id/textFourthLotLabel"
+        android:layout_marginTop="8sp"
+        android:layout_marginStart="8sp"
+        android:layout_marginBottom="8sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_alignParentStart="true"
         android:gravity="end"
         android:layout_below="@+id/textThirdLot"
@@ -100,13 +128,15 @@
 
     <TextView
         android:id="@+id/textFourthLot"
+        android:layout_marginEnd="8sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_marginStart="10sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_toEndOf="@+id/textFourthLotLabel"
         android:layout_alignBaseline="@+id/textFourthLotLabel"
         android:layout_alignBottom="@+id/textFourthLotLabel"
-        android:text="@string/dummy"/>
+        android:text="@string/fourthOption"/>
 
 </RelativeLayout>
