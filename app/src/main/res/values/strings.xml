@@ -19,4 +19,8 @@
     <string name="secondOption"> Second Option</string>
     <string name="thirdOption"> Third Option</string>
     <string name="fourthOption"> Fourth Option</string>
+    <string name="address">Adress:</string>
+    <string name="lot">Lot:</string>
+    <string name="free_hours">Free Hours:</string>
+    <string name="lot_fees">Fees:</string>
 </resources>
