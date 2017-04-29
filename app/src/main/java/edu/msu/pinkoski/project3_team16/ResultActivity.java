@@ -16,8 +16,23 @@ public class ResultActivity extends AppCompatActivity {
         setContentView(R.layout.result_activity);
     }
 
-    public void onDetail(View view) {
+    public void onDetail(View view, int option) {
         Intent intent = new Intent(ResultActivity.this, DetailActivity.class);
         startActivity(intent);
+    }
+
+    public void onOption1(View view){
+        onDetail(view, 1);
+    }
+
+    public void onOption2(View view){
+        onDetail(view, 2);
+    }
+
+    public void onOption3(View view){
+        onDetail(view, 3);
+    }
+    public void onOption4(View view){
+        onDetail(view, 4);
     }
 }
