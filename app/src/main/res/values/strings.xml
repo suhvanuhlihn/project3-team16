@@ -10,4 +10,5 @@
     <string name="second">2.</string>
     <string name="third">3.</string>
     <string name="fourth">4.</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

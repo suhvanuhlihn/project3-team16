@@ -51,13 +51,13 @@
             android:id="@+id/buttonInfo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimary"
-            android:text="@string/info"
             android:layout_margin="8dp"
-            android:textSize="24sp"
-            android:onClick="onInfo"
+            android:background="@color/colorPrimary"
             android:gravity="center_horizontal|center_vertical"
-            android:textColor="@color/white" />
+            android:onClick="onBtnInfo"
+            android:text="@string/info"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
 
 
     </LinearLayout>

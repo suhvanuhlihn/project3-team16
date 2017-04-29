@@ -55,17 +55,17 @@ tools:context=".MainActivity">
 
     <Button
         android:id="@+id/buttonInfo"
-        android:text="@string/info"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:textSize="24sp"
         android:layout_margin="8dp"
-        android:gravity="center"
-        android:onClick="onInfo"
+        android:layout_weight="1"
         android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:onClick="onBtnInfo"
+        android:text="@string/info"
         android:textColor="@color/white"
-        android:layout_weight="1" />
+        android:textSize="24sp" />
 
     <FrameLayout
         android:layout_width="match_parent"
