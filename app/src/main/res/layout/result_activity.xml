@@ -139,4 +139,33 @@
         android:layout_alignBottom="@+id/textFourthLotLabel"
         android:text="@string/fourthOption"/>
 
+
+    <TextView
+        android:id="@+id/textFifthLotLabel"
+        android:layout_marginTop="8sp"
+        android:layout_marginStart="8sp"
+        android:layout_marginBottom="8sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentStart="true"
+        android:gravity="end"
+        android:layout_below="@+id/textFourthLot"
+        android:text="@string/fifth"/>
+
+    <TextView
+        android:id="@+id/textFifthLot"
+        android:layout_marginEnd="8sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_toEndOf="@+id/textSecondLotLabel"
+        android:layout_alignBaseline="@+id/textFifthLotLabel"
+        android:layout_alignBottom="@+id/textFifthLotLabel"
+        android:text="@string/fifthOption"/>
+
 </RelativeLayout>
