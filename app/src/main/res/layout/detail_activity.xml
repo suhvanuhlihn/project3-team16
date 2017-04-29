@@ -13,49 +13,69 @@
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.5" />
 
-    <TextView
-        android:id="@+id/textFreeHours"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_margin="8dp"
-        android:layout_weight="0.1"
-        android:background="@color/colorPrimary"
-        android:text="@string/free_hours"
-        android:textColor="@color/white"
-        android:textSize="24sp" />
+        android:layout_weight="0.1">
 
-    <TextView
-        android:id="@+id/textLotNumber"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_margin="8dp"
-        android:layout_weight="0.1"
-        android:background="@color/colorPrimary"
-        android:text="@string/lot"
-        android:textColor="@color/white"
-        android:textSize="24sp" />
+        <TextView
+            android:id="@+id/textFreeHours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/free_hours"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </RelativeLayout>
 
-    <TextView
-        android:id="@+id/textAddress"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_margin="8dp"
-        android:layout_weight="0.1"
-        android:background="@color/colorPrimary"
-        android:text="@string/address"
-        android:textColor="@color/white"
-        android:textSize="24sp" />
+        android:layout_weight="0.1">
 
-    <TextView
-        android:id="@+id/textLotFees"
+        <TextView
+            android:id="@+id/textAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/address"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_margin="8dp"
-        android:layout_weight="0.1"
-        android:background="@color/colorPrimary"
-        android:text="@string/lot_fees"
-        android:textColor="@color/white"
-        android:textSize="24sp" />
+        android:layout_weight="0.1">
+
+        <TextView
+            android:id="@+id/textLotFees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/lot_fees"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+
+        <TextView
+            android:id="@+id/textLotNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/lot"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </RelativeLayout>
 
     <Button
         android:id="@+id/googleMapsButton"
