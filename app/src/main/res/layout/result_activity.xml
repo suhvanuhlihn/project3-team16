@@ -16,7 +16,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:clickable="true"
-        android:onClick="onDetail"
+        android:onClick="onOption1"
         android:text="@string/result"
         android:textSize="40sp" />
 

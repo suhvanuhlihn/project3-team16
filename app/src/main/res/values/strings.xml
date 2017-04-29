@@ -10,10 +10,7 @@
     <string name="second">2.</string>
     <string name="third">3.</string>
     <string name="fourth">4.</string>
-    <string name="infoText"> MSU Parking Tips is a helpful guide \n to find FREE parking on campus!\n
-    You can begin my clicking the \n "Search for parking button", on \n the previous page. This will then \n
-    generate a list of the nearest \n parking lots. You can then click \n on any of the parking lots to \n get details
-    on times, locations, \n and pricing (specifically when \n there is free parking).</string>
+    <string name="infoText"> MSU Parking Tips is a helpful guide to find FREE parking on campus! You can begin my clicking the "Search for parking button", on the previous page. This will then generate a list of the nearest parking lots. You can then click on any of the parking lots to get details on times, locations, and pricing (specifically when there is free parking).</string>
     <string name="infoHeading">Welcome to MSU Parking Tips!</string>
     <string name="title_activity_maps">Map</string>
     <string name="map_it">MAP IT</string>

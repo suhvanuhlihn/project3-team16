@@ -21,10 +21,8 @@ public class ParkingLot {
     private String tips = null;
 
     // constructor
-    public ParkingLot(Context context, int id, int mapPicID, int inPersonID) {
+    public ParkingLot(Context context, int id) {
         lotId = id;
-        mapPic = BitmapFactory.decodeResource(context.getResources(), mapPicID);
-        inPersonPic = BitmapFactory.decodeResource(context.getResources(), inPersonID);
     }
 
     public void SetGPS(double lati, double longi) {
