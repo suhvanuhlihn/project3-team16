@@ -7,4 +7,7 @@
     <string name="dummy">dummy</string>
     <string name="nextClosest">Nearby:</string>
     <string name="otherParking">Other Lots:</string>
+    <string name="second">2.</string>
+    <string name="third">3.</string>
+    <string name="fourth">4.</string>
 </resources>
