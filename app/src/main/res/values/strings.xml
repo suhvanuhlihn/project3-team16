@@ -15,4 +15,5 @@
     generate a list of the nearest \n parking lots. You can then click \n on any of the parking lots to \n get details
     on times, locations, \n and pricing (specifically when \n there is free parking).</string>
     <string name="infoHeading">Welcome to MSU Parking Tips!</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
