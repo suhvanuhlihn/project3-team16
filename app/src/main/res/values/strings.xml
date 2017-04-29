@@ -10,6 +10,7 @@
     <string name="second">2.</string>
     <string name="third">3.</string>
     <string name="fourth">4.</string>
+    <string name="fifth">5.</string>
     <string name="infoText"> MSU Parking Tips is a helpful guide to find FREE parking on campus! You can begin my clicking the "Search for parking button", on the previous page. This will then generate a list of the nearest parking lots. You can then click on any of the parking lots to get details on times, locations, and pricing (specifically when there is free parking).</string>
     <string name="infoHeading">Welcome to MSU Parking Tips!</string>
     <string name="title_activity_maps">Map</string>
@@ -23,4 +24,5 @@
     <string name="lot">Lot:</string>
     <string name="free_hours">Free Hours:</string>
     <string name="lot_fees">Fees:</string>
+    <string name="fifthOption">Fifth Option</string>
 </resources>
