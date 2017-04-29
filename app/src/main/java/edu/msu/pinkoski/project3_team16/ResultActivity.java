@@ -35,4 +35,8 @@ public class ResultActivity extends AppCompatActivity {
     public void onOption4(View view){
         onDetail(view, 4);
     }
+
+    public void onOption5(View view){
+        onDetail(view, 5);
+    }
 }
