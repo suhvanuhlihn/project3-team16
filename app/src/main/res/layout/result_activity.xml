@@ -8,11 +8,13 @@
     android:gravity="center_horizontal"
     tools:context="edu.msu.pinkoski.project3_team16.ResultActivity">
 
+
+
     <TextView
         android:id="@+id/textResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:layout_marginTop="50dp"
         android:text="@string/result"
         android:layout_centerHorizontal="true" />
@@ -44,5 +46,66 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_marginTop="20dp"
         android:text="@string/otherParking"/>
+
+    <TextView
+        android:id="@+id/textSecondLotLabel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignParentStart="true"
+        android:gravity="end"
+        android:layout_below="@+id/textOtherCloseParking"
+        android:text="@string/second"/>
+
+    <TextView
+        android:id="@+id/textSecondLot"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginStart="10sp"
+        android:layout_toEndOf="@+id/textSecondLotLabel"
+        android:layout_alignBaseline="@+id/textSecondLotLabel"
+        android:layout_alignBottom="@+id/textSecondLotLabel"
+        android:text="@string/dummy"/>
+    <TextView
+        android:id="@+id/textThirdLotLabel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignParentStart="true"
+        android:gravity="end"
+        android:layout_below="@+id/textSecondLotLabel"
+        android:text="@string/third"/>
+
+    <TextView
+        android:id="@+id/textThirdLot"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginStart="10sp"
+        android:layout_toEndOf="@+id/textThirdLotLabel"
+        android:layout_alignBaseline="@+id/textThirdLotLabel"
+        android:layout_alignBottom="@+id/textThirdLotLabel"
+        android:text="@string/dummy"/>
+    <TextView
+        android:id="@+id/textFourthLotLabel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignParentStart="true"
+        android:gravity="end"
+        android:layout_below="@+id/textThirdLot"
+        android:text="@string/fourth"/>
+
+    <TextView
+        android:id="@+id/textFourthLot"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginStart="10sp"
+        android:layout_toEndOf="@+id/textFourthLotLabel"
+        android:layout_alignBaseline="@+id/textFourthLotLabel"
+        android:layout_alignBottom="@+id/textFourthLotLabel"
+        android:text="@string/dummy"/>
 
 </RelativeLayout>
