@@ -18,62 +18,62 @@ tools:context=".MainActivity">
     android:adjustViewBounds="true"
     android:contentDescription="@string/parkingimage" />
 
-<LinearLayout
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <FrameLayout
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:id="@+id/emptyFrameOne">
+        android:layout_height="match_parent">
 
-    </FrameLayout>
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1">
-
-        <Button
-            android:id="@+id/buttonSearch"
-            android:text="@string/search"
+        <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textSize="24sp"
-            android:onClick="onSearchForParking"
+            android:layout_weight="1"
+            android:id="@+id/emptyFrameOne">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/buttonSearch"
+                android:text="@string/search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="24sp"
+                android:onClick="onSearch (MainActivity)"
+                android:layout_gravity="center"
+                android:longClickable="false"
+                android:layout_margin="8dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+        </FrameLayout>
+
+
+        <Button
+            android:id="@+id/buttonInfo"
+            android:text="@string/info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:longClickable="false"
+            android:textSize="24sp"
             android:layout_margin="8dp"
+            android:gravity="center"
+            android:onClick="onInfo"
             android:background="@color/colorPrimary"
             android:textColor="@color/white"
-            android:gravity="center"/>
+            android:layout_weight="1" />
 
-    </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/emptyFrameTwo">
 
-
-    <Button
-        android:id="@+id/buttonInfo"
-        android:text="@string/info"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="center"
-        android:textSize="24sp"
-        android:layout_margin="8dp"
-        android:gravity="center"
-        android:onClick="onInfo"
-        android:background="@color/colorPrimary"
-        android:textColor="@color/white"
-        android:layout_weight="1" />
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:id="@+id/emptyFrameTwo">
-
-    </FrameLayout>
-</LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
 
 </LinearLayout>
