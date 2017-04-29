@@ -21,8 +21,9 @@
     <string name="thirdOption"> Third Option</string>
     <string name="fourthOption"> Fourth Option</string>
     <string name="address">Adress:</string>
-    <string name="lot">Lot:</string>
     <string name="free_hours">Free Hours:</string>
     <string name="lot_fees">Fees:</string>
     <string name="fifthOption">Fifth Option</string>
+    <string name="tips">Tips:</string>
+    <string name="lot_and_address"><![CDATA[Lot&Address:]]></string>
 </resources>
