@@ -8,156 +8,176 @@
     tools:context=".DetailActivity">
 
 
-    <view
-        android:id="@+id/lotPictureView"
-        class="edu.msu.pinkoski.project3_team16.LotImageView"
-        android:layout_height="wrap_content"
-        android:layout_width="250dp"
-        android:layout_gravity="center"
-        android:adjustViewBounds="true"
-        android:contentDescription="@string/parkingimage"
-        android:padding="20dp" />
-
-
-
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
 
-        <RelativeLayout
+        <view
+            android:id="@+id/lotPictureView"
+            class="edu.msu.pinkoski.project3_team16.LotImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/parkingimage"
+            android:padding="20dp" />
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="0.1">
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/textLotNumberLabel"
-                android:layout_width="wrap_content"
-                android:gravity="center_vertical"
-                android:layout_height="match_parent"
-                android:background="@color/white"
-                android:text="@string/lot_and_address"
-                android:textColor="@color/black"
-                android:textSize="20sp" />
-
-            <TextView
-                android:id="@+id/textLotNumber"
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:gravity="center_vertical"
-                android:layout_height="match_parent"
-                android:background="@color/white"
-                android:hint="@string/pass_info"
-                android:layout_toEndOf="@id/textLotNumberLabel"
-                android:textColor="@color/black"
-                android:textSize="15sp" />
-        </RelativeLayout>
+                android:layout_height="0dp"
+                android:layout_weight="0.1">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="0.1">
+                <TextView
+                    android:id="@+id/textLotNumberLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:text="@string/lot_and_address"
+                    android:textColor="@color/black"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/textFreeHoursLabel"
-                android:gravity="center_vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:background="@color/white"
-                android:text="@string/free_hours"
-                android:textColor="@color/black"
-                android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/textLotNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toEndOf="@id/textLotNumberLabel"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:hint="@string/pass_info"
+                    android:textColor="@color/black"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:textSize="15sp" />
+            </RelativeLayout>
 
-
-            <TextView
-                android:id="@+id/textFreeHours"
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:gravity="center_vertical"
-                android:layout_height="match_parent"
-                android:background="@color/white"
-                android:hint="@string/pass_info"
-                android:layout_toEndOf="@id/textFreeHoursLabel"
-                android:textColor="@color/black"
-                android:textSize="15sp" />
-        </RelativeLayout>
+                android:layout_height="0dp"
+                android:layout_weight="0.1">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="0.1">
-
-            <TextView
-                android:id="@+id/textFeesLabel"
-                android:gravity="center_vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:background="@color/white"
-                android:text="@string/lot_fees"
-                android:textColor="@color/black"
-                android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/textFreeHoursLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:text="@string/free_hours"
+                    android:textColor="@color/black"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:textSize="20sp" />
 
 
-            <TextView
-                android:id="@+id/textFees"
+                <TextView
+                    android:id="@+id/textFreeHours"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toEndOf="@id/textFreeHoursLabel"
+                    android:background="@color/white"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:gravity="center_vertical"
+                    android:hint="@string/pass_info"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:gravity="center_vertical"
-                android:layout_height="match_parent"
-                android:background="@color/white"
-                android:hint="@string/pass_info"
-                android:layout_toEndOf="@id/textFeesLabel"
-                android:textColor="@color/black"
-                android:textSize="15sp" />
-        </RelativeLayout>
+                android:layout_height="0dp"
+                android:layout_weight="0.1">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="0.1">
-
-            <TextView
-                android:id="@+id/textTipsLabel"
-                android:gravity="center_vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:background="@color/white"
-                android:text="@string/tips"
-                android:textColor="@color/black"
-                android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/textFeesLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:text="@string/lot_fees"
+                    android:textColor="@color/black"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:textSize="20sp" />
 
 
+                <TextView
+                    android:id="@+id/textFees"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toEndOf="@id/textFeesLabel"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:hint="@string/pass_info"
+                    android:textColor="@color/black"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:textSize="15sp" />
+            </RelativeLayout>
 
-            <TextView
-                android:id="@+id/textTips"
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:gravity="center_vertical"
-                android:layout_height="match_parent"
-                android:background="@color/white"
-                android:hint="@string/pass_info"
-                android:layout_toEndOf="@id/textTipsLabel"
-                android:textColor="@color/black"
-                android:textSize="15sp" />
-        </RelativeLayout>
+                android:layout_height="0dp"
+                android:layout_weight="0.1">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight=".1">
+                <TextView
+                    android:id="@+id/textTipsLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:text="@string/tips"
+                    android:textColor="@color/black"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:textSize="20sp" />
 
+                <TextView
+                    android:id="@+id/textTips"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toEndOf="@id/textTipsLabel"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:hint="@string/pass_info"
+                    android:textColor="@color/black"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:textSize="15sp" />
+            </RelativeLayout>
 
-            <Button
-                android:id="@+id/googleMapsButton"
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:layout_margin="8dp"
-                android:background="@color/colorPrimary"
-                android:onClick="buttonMap"
-                android:text="@string/map_it"
-                android:textColor="@color/white"
-                android:textSize="24sp" />
+                android:layout_height="0dp"
+                android:layout_weight=".1">
+
+                <Button
+                    android:id="@+id/googleMapsButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:background="@color/colorPrimary"
+                    android:onClick="buttonMap"
+                    android:text="@string/map_it"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
 
 
-        </RelativeLayout>
+            </RelativeLayout>
 
+        </LinearLayout>
     </LinearLayout>
+
 
 </LinearLayout>

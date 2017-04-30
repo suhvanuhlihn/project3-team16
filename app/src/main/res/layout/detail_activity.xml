@@ -26,6 +26,8 @@
             android:background="@color/white"
             android:text="@string/lot_and_address"
             android:textColor="@color/black"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp"
             android:textSize="20sp" />
 
         <TextView
@@ -37,6 +39,8 @@
             android:gravity="center_vertical"
             android:hint="@string/pass_info"
             android:textColor="@color/black"
+            android:paddingEnd="5dp"
+            android:paddingStart="0dp"
             android:textSize="15sp" />
     </RelativeLayout>
 
@@ -53,6 +57,8 @@
             android:background="@color/white"
             android:text="@string/free_hours"
             android:textColor="@color/black"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp"
             android:textSize="20sp" />
 
 
@@ -65,6 +71,8 @@
             android:hint="@string/pass_info"
             android:layout_toEndOf="@id/textFreeHoursLabel"
             android:textColor="@color/black"
+            android:paddingEnd="5dp"
+            android:paddingStart="0dp"
             android:textSize="15sp" />
     </RelativeLayout>
 
@@ -81,6 +89,8 @@
             android:background="@color/white"
             android:text="@string/lot_fees"
             android:textColor="@color/black"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp"
             android:textSize="20sp" />
 
 
@@ -93,6 +103,8 @@
             android:hint="@string/pass_info"
             android:layout_toEndOf="@id/textFeesLabel"
             android:textColor="@color/black"
+            android:paddingEnd="5dp"
+            android:paddingStart="0dp"
             android:textSize="15sp" />
     </RelativeLayout>
 
@@ -109,6 +121,8 @@
             android:background="@color/white"
             android:text="@string/tips"
             android:textColor="@color/black"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp"
             android:textSize="20sp" />
 
 
@@ -122,6 +136,8 @@
             android:hint="@string/pass_info"
             android:layout_toEndOf="@id/textTipsLabel"
             android:textColor="@color/black"
+            android:paddingEnd="5dp"
+            android:paddingStart="0dp"
             android:textSize="15sp" />
     </RelativeLayout>
 
