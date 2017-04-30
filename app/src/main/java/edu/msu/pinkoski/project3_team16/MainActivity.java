@@ -149,19 +149,19 @@ public class MainActivity extends AppCompatActivity {
 
         ParkingLot lot9 = lots.get(0);
         lot9.SetGPS(42.7293374,-84.476294);
-        lot9.SetName("Lot 9 In front of Phillips Hall");
+        lot9.SetName("Lot 9 in front of Phillips Hall");
         lot9.SetConfig("6pm Friday to 6am Monday", "$0.90/half-hour", " Free at specified times unless there is a football game on Saturday.");
 
         ParkingLot lot43 = lots.get(1);
         lot43.SetGPS(42.724216,-84.4795345);
-        lot43.SetName("Lot 43 Behind Anthony/Engineering Building");
-        lot43.SetConfig("6pm-2am", "permit required any other time", "The small section between Anthony & the EB where locks the doors are locked, classroom (room#)"
+        lot43.SetName("Lot 43 behind Anthony/Engineering Building");
+        lot43.SetConfig("6pm-2am", "Permit required any other time", "The small section between Anthony & the EB where locks the doors are locked, classroom (room#)"
                  + "is a shortcut to the back parking lot of Anthony.");
 
         ParkingLot lot73 = lots.get(2);
         lot73.SetGPS(42.7224652,-84.4887669);
         lot73.SetName("Lot 73 & 74 Wilson/Holden Halls");
-        lot73.SetConfig("6pm-2am", "permit required any other time", "Go to MLC hours.");
+        lot73.SetConfig("6pm-2am", "Permit required any other time", "Go to MLC hours.");
 
         ParkingLot lot79 = lots.get(3);
         lot79.SetGPS(42.7281513,-84.4870413);
@@ -171,7 +171,7 @@ public class MainActivity extends AppCompatActivity {
 
         ParkingLot lot102 = lots.get(4);
         lot102.SetGPS(42.7211903,-84.4816108);
-        lot102.SetName("Lot 102 Behind Com Arts");
+        lot102.SetName("Lot 102 behind Com Arts");
         lot102.SetConfig("6pm-2am and weekends","$0.90/half-hour","Covered Parking Garage");
 
     }
