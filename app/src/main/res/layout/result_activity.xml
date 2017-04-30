@@ -13,7 +13,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.5">
+        android:layout_weight="0.3">
 
         <TextView
             android:id="@+id/textPlace"
@@ -28,6 +28,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="@color/white"
             android:layout_margin="8dp"
+            android:padding="8dp"
             android:textSize="30sp" />
 
         <TextView
@@ -77,6 +78,7 @@
             android:clickable="true"
             android:onClick="onOption2"
             android:text="@string/secondOption"
+            android:padding="8dp"
             android:layout_below="@id/textOtherCloseParking"
             android:layout_margin="8dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -93,6 +95,8 @@
             android:text="@string/thirdOption"
             android:layout_below="@id/textSecondLot"
             android:layout_margin="8dp"
+            android:padding="8dp"
+
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="@color/white" />
 
@@ -105,6 +109,8 @@
             android:clickable="true"
             android:onClick="onOption4"
             android:layout_margin="8dp"
+            android:padding="8dp"
+
             android:text="@string/fourthOption"
             android:layout_below="@id/textThirdLot"
             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -114,6 +120,8 @@
             android:id="@+id/textFifthLot"
             android:textAlignment="center"
             android:layout_margin="8dp"
+            android:padding="8dp"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"
