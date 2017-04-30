@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
     private LocationManager locationManager = null;
     private double curLati = 0;
     private double curLongi = 0;
+    private double minDistance = 0;
 
     private void registerListeners() {
         unregisterListeners();
@@ -183,6 +184,7 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("rankLots", rankPark());
         intent.putExtra("curLati", Double.toString(curLati));
         intent.putExtra("curLongi", Double.toString(curLongi));
+        intent.putExtra("minDistance", String.format("%1$6.1f m", minDistance));
         startActivity(intent);
     }
 
@@ -217,6 +219,9 @@ public class MainActivity extends AppCompatActivity {
                 minId = id;
             }
             id++;
+        }
+        if (list.size()==5) {
+            minDistance = minD;
         }
         return list.get(minId);
     }

@@ -17,6 +17,7 @@ public class ResultActivity extends AppCompatActivity {
     ArrayList<ParkingLot> rankLots;
     String curLati;
     String curLongi;
+    String minDistance;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +28,7 @@ public class ResultActivity extends AppCompatActivity {
         rankLots = (ArrayList<ParkingLot>)intent.getSerializableExtra("rankLots");
         curLati = intent.getExtras().getString("curLati");
         curLongi = intent.getExtras().getString("curLongi");
+        minDistance = intent.getExtras().getString("minDistance");
 
         SetUI();
     }
@@ -57,16 +59,18 @@ public class ResultActivity extends AppCompatActivity {
     public void onOption5(View view){onDetail(view, 5);}
 
     public void SetUI() {
+        TextView disText = (TextView) findViewById(R.id.textDistance);
         TextView text1 = (TextView) findViewById(R.id.textPlace);
         TextView text2 = (TextView) findViewById(R.id.textSecondLot);
         TextView text3 = (TextView) findViewById(R.id.textThirdLot);
         TextView text4 = (TextView) findViewById(R.id.textFourthLot);
         TextView text5 = (TextView) findViewById(R.id.textFifthLot);
 
+        disText.setText(minDistance);
         text1.setText(rankLots.get(0).getLotNum());
-        text2.setText(rankLots.get(1).getLotNum());
-        text3.setText(rankLots.get(2).getLotNum());
-        text4.setText(rankLots.get(3).getLotNum());
-        text5.setText(rankLots.get(4).getLotNum());
+        text2.setText("2. " + rankLots.get(1).getLotNum());
+        text3.setText("3. " + rankLots.get(2).getLotNum());
+        text4.setText("4. " + rankLots.get(3).getLotNum());
+        text5.setText("5. " + rankLots.get(4).getLotNum());
     }
 }
