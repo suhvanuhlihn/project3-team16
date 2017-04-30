@@ -160,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
         ParkingLot lot73 = lots.get(2);
         lot73.SetGPS(42.7224652,-84.4887669);
         lot73.SetName("Lot 73 & 74 Wilson/Holden Halls");
-        lot73.SetConfig("6pm-2am", "permit required any other time", "");
+        lot73.SetConfig("6pm-2am", "permit required any other time", "Go to MLC hours.");
 
         ParkingLot lot79 = lots.get(3);
         lot79.SetGPS(42.7281513,-84.4870413);
@@ -171,7 +171,7 @@ public class MainActivity extends AppCompatActivity {
         ParkingLot lot102 = lots.get(4);
         lot102.SetGPS(42.7211903,-84.4816108);
         lot102.SetName("Lot 102 Behind Com Arts");
-        lot102.SetConfig("6pm-2am and weekends","$0.90/half-hour"," ");
+        lot102.SetConfig("6pm-2am and weekends","$0.90/half-hour","Covered Parking Garage");
 
     }
 

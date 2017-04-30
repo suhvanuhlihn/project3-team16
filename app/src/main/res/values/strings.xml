@@ -25,6 +25,6 @@
     <string name="lot_fees">Fees:</string>
     <string name="fifthOption">Fifth Option</string>
     <string name="tips">Tips:</string>
-    <string name="lot_and_address"><![CDATA[Lot&Address:]]></string>
+    <string name="lot_and_address"><![CDATA[Lot:]]></string>
     <string name="pass_info">Pass Info</string>
 </resources>
