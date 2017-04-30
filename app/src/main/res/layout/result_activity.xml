@@ -21,7 +21,6 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/textResult"
             android:layout_centerInParent="true"
-            android:layout_margin="8sp"
             android:background="@color/colorPrimary"
             android:onClick="onOption1"
             android:text="@string/firstOption"
@@ -35,7 +34,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="50dp"
             android:clickable="true"
             android:onClick="onOption1"
             android:text="@string/result"
@@ -59,27 +57,18 @@
         android:layout_weight="0.5">
 
         <TextView
-            android:id="@+id/textThirdLot"
+            android:id="@+id/textOtherCloseParking"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/textThirdLotLabel"
-            android:layout_alignBottom="@+id/textThirdLotLabel"
-            android:layout_toEndOf="@+id/textThirdLotLabel"
-            android:background="@color/colorPrimary"
-            android:clickable="true"
-            android:onClick="onOption3"
-            android:text="@string/thirdOption"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="@color/white" />
+            android:text="@string/otherParking"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textSecondLot"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/textSecondLotLabel"
-            android:layout_alignBottom="@+id/textSecondLotLabel"
-            android:layout_marginEnd="8sp"
-            android:layout_toEndOf="@+id/textSecondLotLabel"
             android:background="@color/colorPrimary"
             android:clickable="true"
             android:onClick="onOption2"
@@ -88,25 +77,20 @@
             android:textColor="@color/white" />
 
         <TextView
-            android:id="@+id/textOtherCloseParking"
+            android:id="@+id/textThirdLot"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/textDistance"
-            android:layout_centerInParent="true"
-            android:layout_marginTop="50dp"
-            android:text="@string/otherParking"
-            android:textColor="@color/black"
-            android:textSize="30sp"
-            android:textStyle="bold" />
+            android:background="@color/colorPrimary"
+            android:clickable="true"
+            android:onClick="onOption3"
+            android:text="@string/thirdOption"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white" />
 
         <TextView
             android:id="@+id/textFourthLot"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/textFourthLotLabel"
-            android:layout_alignBottom="@+id/textFourthLotLabel"
-            android:layout_marginEnd="8sp"
-            android:layout_toEndOf="@+id/textFourthLotLabel"
             android:background="@color/colorPrimary"
             android:clickable="true"
             android:onClick="onOption4"
@@ -118,10 +102,6 @@
             android:id="@+id/textFifthLot"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/textFifthLotLabel"
-            android:layout_alignBottom="@+id/textFifthLotLabel"
-            android:layout_marginEnd="8sp"
-            android:layout_toEndOf="@+id/textSecondLotLabel"
             android:background="@color/colorPrimary"
             android:clickable="true"
             android:onClick="onOption5"
