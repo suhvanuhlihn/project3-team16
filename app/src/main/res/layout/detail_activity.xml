@@ -31,11 +31,11 @@
         <TextView
             android:id="@+id/textLotNumber"
             android:layout_width="match_parent"
-            android:gravity="center_vertical"
             android:layout_height="match_parent"
-            android:background="@color/white"
-            android:hint="@string/pass_info"
             android:layout_toEndOf="@id/textLotNumberLabel"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:hint="@string/pass_info"
             android:textColor="@color/black"
             android:textSize="15sp" />
     </RelativeLayout>

@@ -20,6 +20,8 @@ public class LotImageView extends View {
 
     final static float SCALE_IN_VIEW = 0.85f;
 
+    int imgID;
+
     public transient Bitmap img = null;
 
     public LotImageView(Context context) {
@@ -38,7 +40,10 @@ public class LotImageView extends View {
     }
 
     private void init(AttributeSet attrs, int defStyle) {
-        img = BitmapFactory.decodeResource(getContext().getResources(), R.drawable.anthony);
+    }
+
+    public void SetImg(int imgID) {
+        img = BitmapFactory.decodeResource(getContext().getResources(), imgID);
     }
 
     @Override
