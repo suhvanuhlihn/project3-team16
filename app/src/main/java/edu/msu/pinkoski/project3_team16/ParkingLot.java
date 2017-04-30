@@ -48,4 +48,6 @@ public class ParkingLot implements Serializable {
     public String getFee() {return fee;}
     public String getTips() { return tips;}
 
+    public String getLotNum() {return "Lot "+ Integer.toString(lotId);}
+
 }
