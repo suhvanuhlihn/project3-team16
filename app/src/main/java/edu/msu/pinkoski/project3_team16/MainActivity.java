@@ -155,8 +155,7 @@ public class MainActivity extends AppCompatActivity {
         ParkingLot lot43 = lots.get(1);
         lot43.SetGPS(42.724216,-84.4795345);
         lot43.SetName("Lot 43 behind Anthony/Engineering Building");
-        lot43.SetConfig("6pm-2am", "Permit required any other time", "The small section between Anthony & the EB where locks the doors are locked, classroom 1300"
-                 + "is a shortcut to the back parking lot of Anthony.");
+        lot43.SetConfig("6pm-2am", "Permit required any other time", "Shortcut through classroom 1300 Anthony!");
 
         ParkingLot lot73 = lots.get(2);
         lot73.SetGPS(42.7224652,-84.4887669);
